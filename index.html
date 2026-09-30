@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="zh-Hant" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="數位多媒體學生的視覺設計、互動網頁與影像作品集。"
+    />
+    <title>黃芳戀｜數位多媒體作品集</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">跳到主要內容</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="回到首頁">
+        <span class="brand-mark">YA</span>
+        <span class="brand-copy">
+          <strong>LIN YU-AN</strong>
+          <small>Digital Media Student</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span>選單</span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="主要導覽">
+        <a href="#about">關於我</a>
+        <a href="#works">作品展示</a>
+        <a href="#contact">聯絡我</a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">
+          <span class="theme-icon" aria-hidden="true">◐</span>
+          <span>切換主題</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section id="top" class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">DIGITAL MEDIA · PORTFOLIO 2026</p>
+          <h1 id="hero-title">把想像，<span>做成可以互動的作品。</span></h1>
+          <p class="hero-lead">
+            我是林予安，正在學習用影像、介面與程式，把觀察到的生活轉換成有節奏、有溫度的數位體驗。
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#works">瀏覽作品 <span aria-hidden="true">↗</span></a>
+            <a class="button button-quiet" href="#about">認識我</a>
+          </div>
+          <div class="hero-meta" aria-label="個人專長摘要">
+            <div><strong>03</strong><span>作品類別</span></div>
+            <div><strong>08</strong><span>完成專案</span></div>
+            <div><strong>01</strong><span>創作方向</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="作品集視覺預覽">
+          <div class="visual-grid"></div>
+          <div class="visual-note note-top">Selected work<br /><strong>01 / 08</strong></div>
+          <div class="visual-card">
+            <div class="visual-card-top"><span>01</span><span>motion study</span></div>
+            <div class="visual-orbit"><span></span><span></span><span></span></div>
+            <p>光的<br /><em>練習</em></p>
+            <div class="visual-card-bottom"><span>VISUAL / 2026</span><span>↗</span></div>
+          </div>
+          <div class="visual-note note-bottom">Scroll to explore<br /><span>↓</span></div>
+        </div>
+      </section>
+
+      <section id="about" class="about section-shell" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">01 / ABOUT</p>
+          <h2 id="about-title">先觀察，再創作。</h2>
+        </div>
+        <div class="about-grid">
+          <p class="about-statement">
+            我喜歡把複雜的訊息整理成清楚的畫面，也喜歡研究使用者如何在一個介面裡移動、停留與發現。
+          </p>
+          <div class="about-details">
+            <p>目前就讀數位多媒體相關科系，創作練習集中在品牌視覺、互動網頁與動態影像。</p>
+            <div class="skill-list" aria-label="技能列表">
+              <span>Visual Design</span><span>Web Design</span><span>Motion</span><span>Creative Coding</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="works" class="works section-shell" aria-labelledby="works-title">
+        <div class="section-heading works-heading">
+          <div>
+            <p class="eyebrow">02 / SELECTED WORKS</p>
+            <h2 id="works-title">正在形成的作品集。</h2>
+          </div>
+          <p class="section-note">每一個作品，都是一次重新整理問題的方法。</p>
+        </div>
+
+        <div class="filter-bar" role="group" aria-label="作品分類">
+          <button class="filter-button is-active" type="button" data-filter="all">全部 <span>08</span></button>
+          <button class="filter-button" type="button" data-filter="visual">視覺設計 <span>03</span></button>
+          <button class="filter-button" type="button" data-filter="web">網頁互動 <span>03</span></button>
+          <button class="filter-button" type="button" data-filter="motion">動態影像 <span>02</span></button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-featured" data-category="web">
+            <div class="project-art art-lumen"><span>LUMEN</span><i></i></div>
+            <div class="project-info"><p class="project-type">WEB INTERACTION · 2026</p><h3>Lumen 光影展覽網站</h3><p>以捲動敘事與互動卡片介紹校內光影展。</p><a href="#contact" class="text-link">查看專案 <span>↗</span></a></div>
+          </article>
+          <article class="project-card" data-category="visual">
+            <div class="project-art art-tide"><span>潮汐<br />TIDE</span><i></i></div>
+            <div class="project-info"><p class="project-type">VISUAL IDENTITY · 2026</p><h3>潮汐品牌識別</h3><p>從海岸線提取節奏，轉換成一組品牌視覺。</p><a href="#contact" class="text-link">查看專案 <span>↗</span></a></div>
+          </article>
+          <article class="project-card" data-category="motion">
+            <div class="project-art art-rhythm"><span>RHYTHM<br />OF AIR</span><i></i></div>
+            <div class="project-info"><p class="project-type">MOTION STUDY · 2025</p><h3>空氣的節奏</h3><p>用形狀、速度與聲音做一段動態練習。</p><a href="#contact" class="text-link">查看專案 <span>↗</span></a></div>
+          </article>
+          <article class="project-card" data-category="visual">
+            <div class="project-art art-letter"><span>A<br />Z</span><i></i></div>
+            <div class="project-info"><p class="project-type">EDITORIAL DESIGN · 2025</p><h3>字體採集誌</h3><p>記錄城市裡容易被忽略的字體風景。</p><a href="#contact" class="text-link">查看專案 <span>↗</span></a></div>
+          </article>
+          <article class="project-card" data-category="web">
+            <div class="project-art art-orbit"><span>ORBIT<br />LAB</span><i></i></div>
+            <div class="project-info"><p class="project-type">CREATIVE CODING · 2025</p><h3>Orbit 互動實驗室</h3><p>以滑鼠移動探索軌道、速度與色彩。</p><a href="#contact" class="text-link">查看專案 <span>↗</span></a></div>
+          </article>
+          <article class="project-card" data-category="motion">
+            <div class="project-art art-frame"><span>FRAME<br />BY FRAME</span><i></i></div>
+            <div class="project-info"><p class="project-type">SHORT FILM · 2025</p><h3>一格一格的日常</h3><p>將日常片段剪輯成一封給自己的影像信。</p><a href="#contact" class="text-link">查看專案 <span>↗</span></a></div>
+          </article>
+        </div>
+        <p id="empty-state" class="empty-state" hidden>這個分類目前還在累積中，換一個分類看看。</p>
+      </section>
+
+      <section id="contact" class="contact section-shell" aria-labelledby="contact-title">
+        <div class="contact-intro">
+          <p class="eyebrow">03 / CONTACT</p>
+          <h2 id="contact-title">一起做一個<br /><span>值得被看見的作品。</span></h2>
+          <p>如果你想聊聊設計、網站或下一個合作提案，歡迎留下訊息。</p>
+          <a class="contact-email" href="mailto:hello@yuan-portfolio.example">hello@yuan-portfolio.example <span>↗</span></a>
+        </div>
+        <form id="contact-form" class="contact-form">
+          <label for="name">你的名字</label>
+          <input id="name" name="name" type="text" placeholder="例如：王小明" required />
+          <label for="email">電子郵件</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required />
+          <label for="message">想聊聊什麼？</label>
+          <textarea id="message" name="message" rows="4" placeholder="簡單描述你的想法……" required></textarea>
+          <button class="button button-primary form-submit" type="submit">送出訊息 <span aria-hidden="true">↗</span></button>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <span>© <span id="year"></span> Lin Yu-An</span>
+      <span>Built with curiosity &amp; code.</span>
+      <a href="#top">回到頂端 ↑</a>
+    </footer>
+  </body>
+</html>
