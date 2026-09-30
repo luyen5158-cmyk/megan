@@ -14,6 +14,15 @@
 }
 
 [data-theme='light'] {
+  --bg: #f4f2ed;
+  --surface: #ffffff;
+  --surface-2: #e9e7e0;
+  --text: #171719;
+  --muted: #68666a;
+  --line: rgba(23, 23, 25, 0.15);
+  --accent: #a7c934;
+  --accent-ink: #1c2500;
+  --warm: #df4e27;
   --shadow: 0 24px 60px rgba(26, 28, 20, 0.1);
 }
 
